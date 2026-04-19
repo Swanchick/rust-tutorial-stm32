@@ -1,4 +1,4 @@
-# Who Presses First — STM32 with Rust
+# Tutorial for Rust STM32L452
 
 ### NUCLEO-L452RE-P | STM32L452RE
 
