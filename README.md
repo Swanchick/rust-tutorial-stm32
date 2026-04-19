@@ -879,3 +879,7 @@ if let Ok(value) = value {
 ```
 
 `adc.read()` performs a single conversion and returns a `Result<u16, _>`. The raw value is a 12-bit integer ranging from 0 to 4095, corresponding to 0V to 3.3V (the reference voltage). The conversion to voltage is a simple linear scaling: `value / 4095 * 3.3`. The result is sent over UART every 500 ms, producing a continuous stream of voltage readings readable with any serial monitor.
+
+---
+
+> Made by Kyryl Lebedenko
